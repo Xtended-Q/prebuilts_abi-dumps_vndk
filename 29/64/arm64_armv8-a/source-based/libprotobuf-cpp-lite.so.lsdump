@@ -510,10 +510,6 @@
    "name" : "_ZN6google8protobuf18GoogleOnceInitImplEPlPNS0_7ClosureE"
   },
   {
-   "binding" : "weak",
-   "name" : "_ZN6google8protobuf18InsertIfNotPresentINS0_8hash_mapINSt3__14pairIPKNS0_11MessageLiteEiEENS0_8internal13ExtensionInfoENS0_4hashIS8_EENS3_8equal_toIS8_EENS3_9allocatorINS4_IKS8_SA_EEEEEEEEbPT_RKNSK_10value_type10first_typeERKNSK_10value_type11second_typeE"
-  },
-  {
    "name" : "_ZN6google8protobuf18StringPrintfVectorEPKcRKNSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEE"
   },
   {
@@ -1795,10 +1791,6 @@
   },
   {
    "name" : "_ZN6google8protobuf8internal20RepeatedPtrFieldBase14InternalExtendEi"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN6google8protobuf8internal20RepeatedPtrFieldBase23UnsafeArenaAddAllocatedINS0_16RepeatedPtrFieldINS0_11MessageLiteEE11TypeHandlerEEEvPNT_4TypeE"
   },
   {
    "name" : "_ZN6google8protobuf8internal20RepeatedPtrFieldBase7ReserveEi"
@@ -4192,25 +4184,6 @@
    ],
    "return_type" : "type-77",
    "source_file" : "/external/protobuf/src/google/protobuf/stubs/once.h"
-  },
-  {
-   "function_name" : "google::protobuf::InsertIfNotPresent",
-   "linker_set_key" : "_ZN6google8protobuf18InsertIfNotPresentINS0_8hash_mapINSt3__14pairIPKNS0_11MessageLiteEiEENS0_8internal13ExtensionInfoENS0_4hashIS8_EENS3_8equal_toIS8_EENS3_9allocatorINS4_IKS8_SA_EEEEEEEEbPT_RKNSK_10value_type10first_typeERKNSK_10value_type11second_typeE",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-701"
-    },
-    {
-     "referenced_type" : "type-471"
-    },
-    {
-     "referenced_type" : "type-657"
-    }
-   ],
-   "return_type" : "type-17",
-   "source_file" : "/external/protobuf/src/google/protobuf/stubs/map_util.h",
-   "template_args" : [ "type-472" ]
   },
   {
    "function_name" : "google::protobuf::StringPrintfVector",
@@ -11246,24 +11219,6 @@
    ],
    "return_type" : "type-602",
    "source_file" : "/external/protobuf/src/google/protobuf/repeated_field.h"
-  },
-  {
-   "access" : "protected",
-   "function_name" : "google::protobuf::internal::RepeatedPtrFieldBase::UnsafeArenaAddAllocated",
-   "linker_set_key" : "_ZN6google8protobuf8internal20RepeatedPtrFieldBase23UnsafeArenaAddAllocatedINS0_16RepeatedPtrFieldINS0_11MessageLiteEE11TypeHandlerEEEvPNT_4TypeE",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "type-590"
-    },
-    {
-     "referenced_type" : "type-436"
-    }
-   ],
-   "return_type" : "type-77",
-   "source_file" : "/external/protobuf/src/google/protobuf/repeated_field.h",
-   "template_args" : [ "type-594" ]
   },
   {
    "access" : "protected",

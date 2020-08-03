@@ -508,10 +508,6 @@
    "name" : "_ZN6google8protobuf18GoogleOnceInitImplEPiPNS0_7ClosureE"
   },
   {
-   "binding" : "weak",
-   "name" : "_ZN6google8protobuf18InsertIfNotPresentINS0_8hash_mapINSt3__14pairIPKNS0_11MessageLiteEiEENS0_8internal13ExtensionInfoENS0_4hashIS8_EENS3_8equal_toIS8_EENS3_9allocatorINS4_IKS8_SA_EEEEEEEEbPT_RKNSK_10value_type10first_typeERKNSK_10value_type11second_typeE"
-  },
-  {
    "name" : "_ZN6google8protobuf18StringPrintfVectorEPKcRKNSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEE"
   },
   {
@@ -4195,25 +4191,6 @@
    ],
    "return_type" : "type-123",
    "source_file" : "/external/protobuf/src/google/protobuf/stubs/once.h"
-  },
-  {
-   "function_name" : "google::protobuf::InsertIfNotPresent",
-   "linker_set_key" : "_ZN6google8protobuf18InsertIfNotPresentINS0_8hash_mapINSt3__14pairIPKNS0_11MessageLiteEiEENS0_8internal13ExtensionInfoENS0_4hashIS8_EENS3_8equal_toIS8_EENS3_9allocatorINS4_IKS8_SA_EEEEEEEEbPT_RKNSK_10value_type10first_typeERKNSK_10value_type11second_typeE",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-672"
-    },
-    {
-     "referenced_type" : "type-424"
-    },
-    {
-     "referenced_type" : "type-625"
-    }
-   ],
-   "return_type" : "type-12",
-   "source_file" : "/external/protobuf/src/google/protobuf/stubs/map_util.h",
-   "template_args" : [ "type-425" ]
   },
   {
    "function_name" : "google::protobuf::StringPrintfVector",

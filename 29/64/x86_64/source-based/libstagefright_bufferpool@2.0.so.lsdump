@@ -855,10 +855,6 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIjNS_3setIlNS_4lessIlEENS_9allocatorIlEEEEEENS_19__map_value_compareIjS8_NS3_IjEELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIjJNS_4pairIjS7_EEEEENSF_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeIjNS_3setIlNS_4lessIlEENS_9allocatorIlEEEEEENS_19__map_value_compareIjS8_NS3_IjEELb1EEENS5_IS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE"
   },
   {
@@ -883,15 +879,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIlKN7android2wpINS2_8hardware5media10bufferpool4V2_014implementation8AccessorEEEEENS_19__map_value_compareIlSC_NS_4lessIlEELb1EEENS_9allocatorISC_EEE25__emplace_unique_key_argsIlJNS_4pairIlSA_EEEEENSL_INS_15__tree_iteratorISC_PNS_11__tree_nodeISC_PvEElEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeIlKN7android2wpINS2_8hardware5media10bufferpool4V2_014implementation8AccessorEEEEENS_19__map_value_compareIlSC_NS_4lessIlEELb1EEENS_9allocatorISC_EEE7destroyEPNS_11__tree_nodeISC_PvEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIlKNS_10shared_ptrIN7android8hardware5media10bufferpool4V2_014implementation16BufferPoolClientEEEEENS_19__map_value_compareIlSC_NS_4lessIlEELb1EEENS_9allocatorISC_EEE5eraseENS_21__tree_const_iteratorISC_PNS_11__tree_nodeISC_PvEElEE"
+   "name" : "_ZNSt3__16__treeINS_12__value_typeIlKNS_10shared_ptrIN7android8hardware5media10bufferpool4V2_014implementation16BufferPoolClientEEEEENS_19__map_value_compareIlSC_NS_4lessIlEELb1EEENS_9allocatorISC_EEE14__erase_uniqueIlEEmRKT_"
   },
   {
    "binding" : "weak",
@@ -907,23 +899,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIlNS_10unique_ptrIN7android8hardware12MessageQueueINS4_5media10bufferpool4V2_019BufferStatusMessageELNS4_8MQFlavorE1EEENS_14default_deleteISB_EEEEEENS_19__map_value_compareIlSF_NS_4lessIlEELb1EEENS_9allocatorISF_EEE5eraseENS_21__tree_const_iteratorISF_PNS_11__tree_nodeISF_PvEElEE"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeIlNS_10unique_ptrIN7android8hardware12MessageQueueINS4_5media10bufferpool4V2_019BufferStatusMessageELNS4_8MQFlavorE1EEENS_14default_deleteISB_EEEEEENS_19__map_value_compareIlSF_NS_4lessIlEELb1EEENS_9allocatorISF_EEE7destroyEPNS_11__tree_nodeISF_PvEE"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIlNS_3setIjNS_4lessIjEENS_9allocatorIjEEEEEENS_19__map_value_compareIlS8_NS3_IlEELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIlJNS_4pairIlS7_EEEEENSF_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeIlNS_3setIjNS_4lessIjEENS_9allocatorIjEEEEEENS_19__map_value_compareIlS8_NS3_IlEELb1EEENS5_IS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIlNS_3setImNS_4lessImEENS_9allocatorImEEEEEENS_19__map_value_compareIlS8_NS3_IlEELb1EEENS5_IS8_EEE25__emplace_unique_key_argsIlJNS_4pairIlS7_EEEEENSF_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_"
   },
   {
    "binding" : "weak",
@@ -935,19 +915,11 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeIlmEENS_19__map_value_compareIlS2_NS_4lessIlEELb1EEENS_9allocatorIS2_EEE14__erase_uniqueIlEEmRKT_"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeIlmEENS_19__map_value_compareIlS2_NS_4lessIlEELb1EEENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE"
   },
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16__treeINS_12__value_typeImNS_10unique_ptrIN7android8hardware5media10bufferpool4V2_014implementation17TransactionStatusENS_14default_deleteIS9_EEEEEENS_19__map_value_compareImSD_NS_4lessImEELb1EEENS_9allocatorISD_EEE7destroyEPNS_11__tree_nodeISD_PvEE"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeImNS_3setIlNS_4lessIlEENS_9allocatorIlEEEEEENS_19__map_value_compareImS8_NS3_ImEELb1EEENS5_IS8_EEE25__emplace_unique_key_argsImJNS_4pairImS7_EEEEENSF_INS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEERKT_DpOT0_"
   },
   {
    "binding" : "weak",
@@ -976,10 +948,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN7android8hardware5media10bufferpool4V2_025BufferInvalidationMessageENS_9allocatorIS6_EEE21__push_back_slow_pathIRKS6_EEvOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIN7android8hardware5media10bufferpool4V2_025BufferInvalidationMessageENS_9allocatorIS6_EEE7reserveEm"
   },
   {
    "name" : "_ZTv0_n24_N7android8hardware5media10bufferpool4V2_014implementation10ConnectionD0Ev"

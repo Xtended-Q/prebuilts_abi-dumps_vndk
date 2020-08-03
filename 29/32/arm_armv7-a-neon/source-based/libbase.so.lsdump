@@ -37,8 +37,8 @@
    "alignment" : 8,
    "linker_set_key" : "double",
    "name" : "double",
-   "referenced_type" : "type-181",
-   "self_type" : "type-181",
+   "referenced_type" : "type-192",
+   "self_type" : "type-192",
    "size" : 8
   },
   {
@@ -55,16 +55,16 @@
    "is_integral" : true,
    "linker_set_key" : "long",
    "name" : "long",
-   "referenced_type" : "type-184",
-   "self_type" : "type-184",
+   "referenced_type" : "type-199",
+   "self_type" : "type-199",
    "size" : 4
   },
   {
    "alignment" : 8,
    "linker_set_key" : "long double",
    "name" : "long double",
-   "referenced_type" : "type-183",
-   "self_type" : "type-183",
+   "referenced_type" : "type-198",
+   "self_type" : "type-198",
    "size" : 8
   },
   {
@@ -72,8 +72,8 @@
    "is_integral" : true,
    "linker_set_key" : "long long",
    "name" : "long long",
-   "referenced_type" : "type-78",
-   "self_type" : "type-78",
+   "referenced_type" : "type-82",
+   "self_type" : "type-82",
    "size" : 8
   },
   {
@@ -81,8 +81,8 @@
    "is_integral" : true,
    "linker_set_key" : "short",
    "name" : "short",
-   "referenced_type" : "type-73",
-   "self_type" : "type-73",
+   "referenced_type" : "type-77",
+   "self_type" : "type-77",
    "size" : 2
   },
   {
@@ -90,8 +90,8 @@
    "is_integral" : true,
    "linker_set_key" : "signed char",
    "name" : "signed char",
-   "referenced_type" : "type-201",
-   "self_type" : "type-201",
+   "referenced_type" : "type-211",
+   "self_type" : "type-211",
    "size" : 1
   },
   {
@@ -100,8 +100,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned char",
    "name" : "unsigned char",
-   "referenced_type" : "type-189",
-   "self_type" : "type-189",
+   "referenced_type" : "type-197",
+   "self_type" : "type-197",
    "size" : 1
   },
   {
@@ -120,8 +120,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long",
    "name" : "unsigned long",
-   "referenced_type" : "type-182",
-   "self_type" : "type-182",
+   "referenced_type" : "type-193",
+   "self_type" : "type-193",
    "size" : 4
   },
   {
@@ -130,8 +130,8 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned long long",
    "name" : "unsigned long long",
-   "referenced_type" : "type-71",
-   "self_type" : "type-71",
+   "referenced_type" : "type-75",
+   "self_type" : "type-75",
    "size" : 8
   },
   {
@@ -140,15 +140,15 @@
    "is_unsigned" : true,
    "linker_set_key" : "unsigned short",
    "name" : "unsigned short",
-   "referenced_type" : "type-64",
-   "self_type" : "type-64",
+   "referenced_type" : "type-73",
+   "self_type" : "type-73",
    "size" : 2
   },
   {
    "linker_set_key" : "void",
    "name" : "void",
-   "referenced_type" : "type-56",
-   "self_type" : "type-56"
+   "referenced_type" : "type-57",
+   "self_type" : "type-57"
   }
  ],
  "elf_functions" :
@@ -459,15 +459,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZN7android4base9ParseUintIjEEbPKcPT_S4_b"
-  },
-  {
-   "binding" : "weak",
    "name" : "_ZN7android4base9ParseUintItEEbPKcPT_S4_b"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZN7android4base9ParseUintIyEEbPKcPT_S4_b"
   },
   {
    "name" : "_ZN7android4base9ReadFullyEiPvj"
@@ -552,10 +544,6 @@
   {
    "binding" : "weak",
    "name" : "_ZNSt3__16vectorIN7android4base14unique_fd_implINS2_13DefaultCloserEEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJRiEEEvDpOT_"
-  },
-  {
-   "binding" : "weak",
-   "name" : "_ZNSt3__16vectorIN7android4base14unique_fd_implINS2_13DefaultCloserEEENS_9allocatorIS5_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS5_RS7_EE"
   },
   {
    "binding" : "weak",
@@ -732,7 +720,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-222"
+     "referenced_type" : "type-232"
     },
     {
      "referenced_type" : "type-23"
@@ -748,10 +736,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-222"
+     "referenced_type" : "type-232"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -761,10 +749,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-222"
+     "referenced_type" : "type-232"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -774,10 +762,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-222"
+     "referenced_type" : "type-232"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -787,10 +775,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-222"
+     "referenced_type" : "type-232"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -800,10 +788,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-158"
+     "referenced_type" : "type-170"
     }
    ],
-   "return_type" : "type-227",
+   "return_type" : "type-237",
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
   {
@@ -813,10 +801,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-158"
+     "referenced_type" : "type-170"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
   {
@@ -826,10 +814,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-158"
+     "referenced_type" : "type-170"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
   {
@@ -839,10 +827,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-158"
+     "referenced_type" : "type-170"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
   {
@@ -852,13 +840,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-158"
+     "referenced_type" : "type-170"
     },
     {
      "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
   {
@@ -868,13 +856,13 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-158"
+     "referenced_type" : "type-170"
     },
     {
      "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
   {
@@ -884,10 +872,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-158"
+     "referenced_type" : "type-170"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
   {
@@ -897,10 +885,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-158"
+     "referenced_type" : "type-170"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
   {
@@ -917,7 +905,7 @@
      "referenced_type" : "type-23"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -946,7 +934,7 @@
      "referenced_type" : "type-23"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -959,7 +947,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -975,7 +963,7 @@
      "referenced_type" : "type-23"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -988,7 +976,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -1001,7 +989,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -1014,7 +1002,7 @@
      "referenced_type" : "type-6"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -1054,7 +1042,7 @@
      "referenced_type" : "type-38"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1085,7 +1073,7 @@
      "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1116,7 +1104,7 @@
      "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1129,7 +1117,7 @@
      "referenced_type" : "type-43"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1142,7 +1130,7 @@
      "referenced_type" : "type-43"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1159,7 +1147,7 @@
      "referenced_type" : "type-30"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1176,7 +1164,7 @@
      "referenced_type" : "type-30"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1207,7 +1195,7 @@
      "referenced_type" : "type-38"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1219,7 +1207,7 @@
      "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-78"
+     "referenced_type" : "type-82"
     },
     {
      "referenced_type" : "type-31"
@@ -1228,7 +1216,7 @@
      "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-228",
+   "return_type" : "type-238",
    "source_file" : "/system/core/base/include/android-base/mapped_file.h"
   },
   {
@@ -1238,10 +1226,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-57"
+     "referenced_type" : "type-59"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/mapped_file.h"
   },
   {
@@ -1251,10 +1239,10 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-57"
+     "referenced_type" : "type-59"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/mapped_file.h"
   },
   {
@@ -1266,7 +1254,7 @@
      "referenced_type" : "type-36"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1275,10 +1263,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-229"
+     "referenced_type" : "type-239"
     },
     {
-     "referenced_type" : "type-230"
+     "referenced_type" : "type-240"
     }
    ],
    "return_type" : "type-11",
@@ -1290,7 +1278,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-231"
+     "referenced_type" : "type-241"
     },
     {
      "referenced_type" : "type-10"
@@ -1320,7 +1308,7 @@
   {
    "function_name" : "android::base::boot_clock::now",
    "linker_set_key" : "_ZN7android4base10boot_clock3nowEv",
-   "return_type" : "type-232",
+   "return_type" : "type-242",
    "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
   },
   {
@@ -1329,19 +1317,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     },
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     }
    ],
-   "return_type" : "type-233",
+   "return_type" : "type-243",
    "source_file" : "/system/core/base/include/android-base/properties.h"
   },
   {
    "function_name" : "android::base::GetThreadId",
    "linker_set_key" : "_ZN7android4base11GetThreadIdEv",
-   "return_type" : "type-71",
+   "return_type" : "type-75",
    "source_file" : "/system/core/base/include/android-base/threads.h"
   },
   {
@@ -1361,7 +1349,7 @@
      "referenced_type" : "type-36"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1370,10 +1358,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     },
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     }
    ],
    "return_type" : "type-11",
@@ -1403,7 +1391,7 @@
      "referenced_type" : "type-38"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1430,7 +1418,7 @@
      "referenced_type" : "type-38"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1457,7 +1445,7 @@
      "referenced_type" : "type-38"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1469,13 +1457,13 @@
      "referenced_type" : "type-38"
     }
    ],
-   "return_type" : "type-234",
+   "return_type" : "type-244",
    "source_file" : "/system/core/base/include/android-base/stringprintf.h"
   },
   {
    "function_name" : "android::base::GetDefaultTag",
    "linker_set_key" : "_ZN7android4base13GetDefaultTagEv",
-   "return_type" : "type-235",
+   "return_type" : "type-247",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1487,7 +1475,7 @@
      "referenced_type" : "type-25"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1496,13 +1484,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-144"
+     "referenced_type" : "type-153"
     },
     {
      "referenced_type" : "type-38"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/stringprintf.h"
   },
   {
@@ -1511,16 +1499,16 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-144"
+     "referenced_type" : "type-153"
     },
     {
      "referenced_type" : "type-38"
     },
     {
-     "referenced_type" : "type-236"
+     "referenced_type" : "type-248"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/stringprintf.h"
   },
   {
@@ -1532,7 +1520,7 @@
      "referenced_type" : "type-38"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1544,7 +1532,7 @@
      "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-225"
+     "referenced_type" : "type-235"
     }
    ],
    "return_type" : "type-11",
@@ -1556,7 +1544,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     },
     {
      "referenced_type" : "type-11"
@@ -1571,19 +1559,19 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-60"
+     "referenced_type" : "type-62"
     },
     {
-     "referenced_type" : "type-61"
+     "referenced_type" : "type-63"
     },
     {
      "referenced_type" : "type-53"
     },
     {
-     "referenced_type" : "type-61"
+     "referenced_type" : "type-63"
     },
     {
-     "referenced_type" : "type-61"
+     "referenced_type" : "type-63"
     }
    ],
    "return_type" : "type-11",
@@ -1595,14 +1583,14 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     },
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     },
     {
      "default_arg" : true,
-     "referenced_type" : "type-237"
+     "referenced_type" : "type-249"
     }
    ],
    "return_type" : "type-11",
@@ -1629,10 +1617,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-238"
+     "referenced_type" : "type-250"
     },
     {
-     "referenced_type" : "type-239"
+     "referenced_type" : "type-251"
     }
    ],
    "return_type" : "type-11",
@@ -1647,7 +1635,7 @@
      "referenced_type" : "type-23"
     },
     {
-     "referenced_type" : "type-225"
+     "referenced_type" : "type-235"
     },
     {
      "default_arg" : true,
@@ -1660,7 +1648,7 @@
   {
    "function_name" : "android::base::GetExecutablePath",
    "linker_set_key" : "_ZN7android4base17GetExecutablePathEv",
-   "return_type" : "type-240",
+   "return_type" : "type-252",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -1672,13 +1660,13 @@
      "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-172"
+     "referenced_type" : "type-182"
     },
     {
      "referenced_type" : "type-31"
     },
     {
-     "referenced_type" : "type-78"
+     "referenced_type" : "type-82"
     }
    ],
    "return_type" : "type-11",
@@ -1697,7 +1685,7 @@
      "referenced_type" : "type-51"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1713,7 +1701,7 @@
      "referenced_type" : "type-51"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1726,7 +1714,7 @@
      "referenced_type" : "type-49"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1739,7 +1727,7 @@
      "referenced_type" : "type-49"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -1773,7 +1761,7 @@
      "referenced_type" : "type-23"
     },
     {
-     "referenced_type" : "type-64"
+     "referenced_type" : "type-73"
     },
     {
      "referenced_type" : "type-31"
@@ -1795,10 +1783,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-241"
+     "referenced_type" : "type-253"
     },
     {
-     "referenced_type" : "type-242"
+     "referenced_type" : "type-254"
     }
    ],
    "return_type" : "type-11",
@@ -1814,7 +1802,7 @@
     },
     {
      "default_arg" : true,
-     "referenced_type" : "type-225"
+     "referenced_type" : "type-235"
     }
    ],
    "return_type" : "type-11",
@@ -1826,10 +1814,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-243"
+     "referenced_type" : "type-255"
     },
     {
-     "referenced_type" : "type-244"
+     "referenced_type" : "type-256"
     }
    ],
    "return_type" : "type-11",
@@ -1856,7 +1844,7 @@
   {
    "function_name" : "android::base::GetExecutableDirectory",
    "linker_set_key" : "_ZN7android4base22GetExecutableDirectoryEv",
-   "return_type" : "type-245",
+   "return_type" : "type-257",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -1868,7 +1856,7 @@
      "referenced_type" : "type-8"
     }
    ],
-   "return_type" : "type-246",
+   "return_type" : "type-258",
    "source_file" : "/system/core/base/include/android-base/errors.h"
   },
   {
@@ -1877,11 +1865,11 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-79"
+     "referenced_type" : "type-83"
     },
     {
      "default_arg" : true,
-     "referenced_type" : "type-247"
+     "referenced_type" : "type-259"
     }
    ],
    "return_type" : "type-11",
@@ -1902,7 +1890,7 @@
      "referenced_type" : "type-31"
     },
     {
-     "referenced_type" : "type-91"
+     "referenced_type" : "type-95"
     }
    ],
    "return_type" : "type-8",
@@ -1917,7 +1905,7 @@
      "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-172"
+     "referenced_type" : "type-182"
     },
     {
      "referenced_type" : "type-31"
@@ -1926,7 +1914,7 @@
      "referenced_type" : "type-31"
     },
     {
-     "referenced_type" : "type-92"
+     "referenced_type" : "type-96"
     }
    ],
    "return_type" : "type-8",
@@ -1938,15 +1926,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-152"
+     "referenced_type" : "type-163"
     },
     {
-     "referenced_type" : "type-148"
+     "referenced_type" : "type-160"
     }
    ],
-   "return_type" : "type-248",
+   "return_type" : "type-260",
    "source_file" : "/system/core/base/include/android-base/strings.h",
-   "template_args" : [ "type-249", "type-148" ]
+   "template_args" : [ "type-261", "type-160" ]
   },
   {
    "function_name" : "android::base::Join",
@@ -1954,15 +1942,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-152"
+     "referenced_type" : "type-163"
     },
     {
      "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-250",
+   "return_type" : "type-262",
    "source_file" : "/system/core/base/include/android-base/strings.h",
-   "template_args" : [ "type-251", "type-10" ]
+   "template_args" : [ "type-263", "type-10" ]
   },
   {
    "function_name" : "android::base::Join",
@@ -1970,15 +1958,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-155"
+     "referenced_type" : "type-166"
     },
     {
-     "referenced_type" : "type-148"
+     "referenced_type" : "type-160"
     }
    ],
-   "return_type" : "type-252",
+   "return_type" : "type-264",
    "source_file" : "/system/core/base/include/android-base/strings.h",
-   "template_args" : [ "type-253", "type-148" ]
+   "template_args" : [ "type-265", "type-160" ]
   },
   {
    "function_name" : "android::base::Join",
@@ -1986,15 +1974,15 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-155"
+     "referenced_type" : "type-166"
     },
     {
      "referenced_type" : "type-10"
     }
    ],
-   "return_type" : "type-254",
+   "return_type" : "type-266",
    "source_file" : "/system/core/base/include/android-base/strings.h",
-   "template_args" : [ "type-255", "type-10" ]
+   "template_args" : [ "type-267", "type-10" ]
   },
   {
    "function_name" : "android::base::Trim",
@@ -2002,10 +1990,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-148"
+     "referenced_type" : "type-160"
     }
    ],
-   "return_type" : "type-256",
+   "return_type" : "type-268",
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
   {
@@ -2014,13 +2002,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-148"
+     "referenced_type" : "type-160"
     },
     {
-     "referenced_type" : "type-148"
+     "referenced_type" : "type-160"
     }
    ],
-   "return_type" : "type-257",
+   "return_type" : "type-269",
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
   {
@@ -2032,7 +2020,7 @@
      "referenced_type" : "type-23"
     }
    ],
-   "return_type" : "type-258",
+   "return_type" : "type-270",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -2044,7 +2032,7 @@
      "referenced_type" : "type-23"
     }
    ],
-   "return_type" : "type-259",
+   "return_type" : "type-271",
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
@@ -2053,10 +2041,10 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-260"
+     "referenced_type" : "type-272"
     },
     {
-     "referenced_type" : "type-261"
+     "referenced_type" : "type-273"
     }
    ],
    "return_type" : "type-11",
@@ -2068,7 +2056,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-262"
+     "referenced_type" : "type-274"
     },
     {
      "referenced_type" : "type-10"
@@ -2086,7 +2074,7 @@
      "referenced_type" : "type-23"
     },
     {
-     "referenced_type" : "type-225"
+     "referenced_type" : "type-235"
     }
    ],
    "return_type" : "type-11",
@@ -2101,7 +2089,7 @@
      "referenced_type" : "type-23"
     },
     {
-     "referenced_type" : "type-225"
+     "referenced_type" : "type-235"
     }
    ],
    "return_type" : "type-11",
@@ -2116,35 +2104,11 @@
      "referenced_type" : "type-38"
     },
     {
-     "referenced_type" : "type-192"
+     "referenced_type" : "type-202"
     },
     {
      "default_arg" : true,
-     "referenced_type" : "type-189"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-11"
-    }
-   ],
-   "return_type" : "type-11",
-   "source_file" : "/system/core/base/include/android-base/parseint.h",
-   "template_args" : [ "type-189" ]
-  },
-  {
-   "function_name" : "android::base::ParseUint",
-   "linker_set_key" : "_ZN7android4base9ParseUintIjEEbPKcPT_S4_b",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-38"
-    },
-    {
-     "referenced_type" : "type-70"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-31"
+     "referenced_type" : "type-197"
     },
     {
      "default_arg" : true,
@@ -2153,7 +2117,7 @@
    ],
    "return_type" : "type-11",
    "source_file" : "/system/core/base/include/android-base/parseint.h",
-   "template_args" : [ "type-31" ]
+   "template_args" : [ "type-197" ]
   },
   {
    "function_name" : "android::base::ParseUint",
@@ -2164,35 +2128,11 @@
      "referenced_type" : "type-38"
     },
     {
-     "referenced_type" : "type-63"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-64"
-    },
-    {
-     "default_arg" : true,
-     "referenced_type" : "type-11"
-    }
-   ],
-   "return_type" : "type-11",
-   "source_file" : "/system/core/base/include/android-base/parseint.h",
-   "template_args" : [ "type-64" ]
-  },
-  {
-   "function_name" : "android::base::ParseUint",
-   "linker_set_key" : "_ZN7android4base9ParseUintIyEEbPKcPT_S4_b",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "type-38"
-    },
-    {
      "referenced_type" : "type-72"
     },
     {
      "default_arg" : true,
-     "referenced_type" : "type-71"
+     "referenced_type" : "type-73"
     },
     {
      "default_arg" : true,
@@ -2201,7 +2141,7 @@
    ],
    "return_type" : "type-11",
    "source_file" : "/system/core/base/include/android-base/parseint.h",
-   "template_args" : [ "type-71" ]
+   "template_args" : [ "type-73" ]
   },
   {
    "function_name" : "android::base::ReadFully",
@@ -2212,7 +2152,7 @@
      "referenced_type" : "type-8"
     },
     {
-     "referenced_type" : "type-172"
+     "referenced_type" : "type-182"
     },
     {
      "referenced_type" : "type-31"
@@ -2230,7 +2170,7 @@
      "referenced_type" : "type-34"
     }
    ],
-   "return_type" : "type-56",
+   "return_type" : "type-57",
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
@@ -2239,13 +2179,13 @@
    "parameters" :
    [
     {
-     "referenced_type" : "type-223"
+     "referenced_type" : "type-233"
     },
     {
      "referenced_type" : "type-65"
     }
    ],
-   "return_type" : "type-223",
+   "return_type" : "type-233",
    "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
   },
   {
@@ -2256,7 +2196,7 @@
    [
     {
      "is_this_ptr" : true,
-     "referenced_type" : "type-161"
+     "referenced_type" : "type-172"
     }
    ],
    "return_type" : "type-8",
@@ -2279,8 +2219,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-112",
-   "self_type" : "type-118",
+   "referenced_type" : "type-116",
+   "self_type" : "type-122",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
@@ -2288,8 +2228,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-120",
-   "self_type" : "type-119",
+   "referenced_type" : "type-124",
+   "self_type" : "type-123",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2306,8 +2246,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-134",
-   "self_type" : "type-136",
+   "referenced_type" : "type-140",
+   "self_type" : "type-143",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
   },
@@ -2315,8 +2255,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-140",
-   "self_type" : "type-142",
+   "referenced_type" : "type-149",
+   "self_type" : "type-151",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/properties.h"
   },
@@ -2324,8 +2264,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-146",
-   "self_type" : "type-148",
+   "referenced_type" : "type-157",
+   "self_type" : "type-160",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -2342,8 +2282,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-270",
-   "self_type" : "type-278",
+   "referenced_type" : "type-282",
+   "self_type" : "type-290",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
@@ -2351,8 +2291,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-281",
-   "self_type" : "type-280",
+   "referenced_type" : "type-293",
+   "self_type" : "type-292",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2360,8 +2300,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-302",
-   "self_type" : "type-304",
+   "referenced_type" : "type-316",
+   "self_type" : "type-318",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
   },
@@ -2369,8 +2309,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-312",
-   "self_type" : "type-316",
+   "referenced_type" : "type-328",
+   "self_type" : "type-332",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/properties.h"
   },
@@ -2378,8 +2318,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-321",
-   "self_type" : "type-323",
+   "referenced_type" : "type-339",
+   "self_type" : "type-341",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -2387,8 +2327,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-58",
-   "self_type" : "type-60",
+   "referenced_type" : "type-60",
+   "self_type" : "type-62",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
   },
@@ -2396,8 +2336,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > &",
-   "referenced_type" : "type-74",
-   "self_type" : "type-79",
+   "referenced_type" : "type-78",
+   "self_type" : "type-83",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/properties.h"
   },
@@ -2405,8 +2345,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<const char *, std::allocator<const char *> > &",
    "name" : "const std::vector<const char *, std::allocator<const char *> > &",
-   "referenced_type" : "type-153",
-   "self_type" : "type-155",
+   "referenced_type" : "type-164",
+   "self_type" : "type-166",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -2414,8 +2354,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<const char *, std::allocator<const char *> > &",
    "name" : "const std::vector<const char *, std::allocator<const char *> > &",
-   "referenced_type" : "type-327",
-   "self_type" : "type-329",
+   "referenced_type" : "type-345",
+   "self_type" : "type-347",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -2423,8 +2363,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<int, std::allocator<int> > &",
    "name" : "const std::vector<int, std::allocator<int> > &",
-   "referenced_type" : "type-319",
-   "self_type" : "type-330",
+   "referenced_type" : "type-333",
+   "self_type" : "type-348",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   },
@@ -2432,8 +2372,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<int, std::allocator<int> > &",
    "name" : "const std::vector<int, std::allocator<int> > &",
-   "referenced_type" : "type-82",
-   "self_type" : "type-91",
+   "referenced_type" : "type-84",
+   "self_type" : "type-95",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   },
@@ -2441,8 +2381,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<int, std::allocator<int> > &",
    "name" : "const std::vector<int, std::allocator<int> > &",
-   "referenced_type" : "type-86",
-   "self_type" : "type-88",
+   "referenced_type" : "type-90",
+   "self_type" : "type-92",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   },
@@ -2450,8 +2390,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
-   "referenced_type" : "type-149",
-   "self_type" : "type-152",
+   "referenced_type" : "type-161",
+   "self_type" : "type-163",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -2459,8 +2399,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > &",
-   "referenced_type" : "type-324",
-   "self_type" : "type-326",
+   "referenced_type" : "type-342",
+   "self_type" : "type-344",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -2468,8 +2408,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-108",
-   "self_type" : "type-107",
+   "referenced_type" : "type-101",
+   "self_type" : "type-100",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2477,8 +2417,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-131",
-   "self_type" : "type-130",
+   "referenced_type" : "type-114",
+   "self_type" : "type-113",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2486,8 +2426,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-176",
-   "self_type" : "type-175",
+   "referenced_type" : "type-135",
+   "self_type" : "type-134",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2495,8 +2435,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-214",
-   "self_type" : "type-213",
+   "referenced_type" : "type-188",
+   "self_type" : "type-187",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2507,14 +2447,23 @@
    "referenced_type" : "type-224",
    "self_type" : "type-223",
    "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/logging.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
+   "name" : "std::basic_ostream<char, std::char_traits<char> > &",
+   "referenced_type" : "type-234",
+   "self_type" : "type-233",
+   "size" : 4,
    "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-267",
-   "self_type" : "type-266",
+   "referenced_type" : "type-279",
+   "self_type" : "type-278",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2522,8 +2471,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-296",
-   "self_type" : "type-295",
+   "referenced_type" : "type-308",
+   "self_type" : "type-307",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2531,8 +2480,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-343",
-   "self_type" : "type-342",
+   "referenced_type" : "type-361",
+   "self_type" : "type-360",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2540,8 +2489,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-375",
-   "self_type" : "type-374",
+   "referenced_type" : "type-393",
+   "self_type" : "type-392",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2549,8 +2498,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-385",
-   "self_type" : "type-384",
+   "referenced_type" : "type-403",
+   "self_type" : "type-402",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
   },
@@ -2576,19 +2525,10 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
    "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-81",
-   "self_type" : "type-80",
+   "referenced_type" : "type-87",
+   "self_type" : "type-86",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "name" : "std::basic_ostream<char, std::char_traits<char> > &",
-   "referenced_type" : "type-97",
-   "self_type" : "type-96",
-   "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
   }
  ],
  "pointer_types" :
@@ -2597,8 +2537,8 @@
    "alignment" : 4,
    "linker_set_key" : "CapturedStdFd *",
    "name" : "CapturedStdFd *",
-   "referenced_type" : "type-157",
-   "self_type" : "type-158",
+   "referenced_type" : "type-168",
+   "self_type" : "type-170",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
@@ -2606,8 +2546,8 @@
    "alignment" : 4,
    "linker_set_key" : "CapturedStderr *",
    "name" : "CapturedStderr *",
-   "referenced_type" : "type-162",
-   "self_type" : "type-163",
+   "referenced_type" : "type-173",
+   "self_type" : "type-174",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
@@ -2615,8 +2555,8 @@
    "alignment" : 4,
    "linker_set_key" : "CapturedStdout *",
    "name" : "CapturedStdout *",
-   "referenced_type" : "type-164",
-   "self_type" : "type-165",
+   "referenced_type" : "type-175",
+   "self_type" : "type-176",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
@@ -2624,8 +2564,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-117",
-   "self_type" : "type-116",
+   "referenced_type" : "type-121",
+   "self_type" : "type-120",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2642,8 +2582,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-277",
-   "self_type" : "type-276",
+   "referenced_type" : "type-289",
+   "self_type" : "type-288",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2651,8 +2591,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-291",
-   "self_type" : "type-290",
+   "referenced_type" : "type-303",
+   "self_type" : "type-302",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2669,8 +2609,8 @@
    "alignment" : 4,
    "linker_set_key" : "DIR *",
    "name" : "DIR *",
-   "referenced_type" : "type-85",
-   "self_type" : "type-84",
+   "referenced_type" : "type-89",
+   "self_type" : "type-88",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2678,8 +2618,8 @@
    "alignment" : 4,
    "linker_set_key" : "TemporaryDir *",
    "name" : "TemporaryDir *",
-   "referenced_type" : "type-221",
-   "self_type" : "type-222",
+   "referenced_type" : "type-231",
+   "self_type" : "type-232",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
@@ -2696,8 +2636,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-102",
-   "self_type" : "type-101",
+   "referenced_type" : "type-106",
+   "self_type" : "type-105",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2705,8 +2645,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-115",
-   "self_type" : "type-114",
+   "referenced_type" : "type-119",
+   "self_type" : "type-118",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2723,8 +2663,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-220",
-   "self_type" : "type-219",
+   "referenced_type" : "type-230",
+   "self_type" : "type-229",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2732,8 +2672,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-275",
-   "self_type" : "type-274",
+   "referenced_type" : "type-287",
+   "self_type" : "type-286",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2741,8 +2681,8 @@
    "alignment" : 4,
    "linker_set_key" : "__sFILE *",
    "name" : "__sFILE *",
-   "referenced_type" : "type-381",
-   "self_type" : "type-380",
+   "referenced_type" : "type-399",
+   "self_type" : "type-398",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2750,8 +2690,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<char *, char *> *",
    "name" : "android::base::EagerEvaluator<char *, char *> *",
-   "referenced_type" : "type-177",
-   "self_type" : "type-185",
+   "referenced_type" : "type-183",
+   "self_type" : "type-186",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2759,8 +2699,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<char *, const char *> *",
    "name" : "android::base::EagerEvaluator<char *, const char *> *",
-   "referenced_type" : "type-166",
-   "self_type" : "type-171",
+   "referenced_type" : "type-169",
+   "self_type" : "type-177",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2768,8 +2708,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<const char *, char *> *",
    "name" : "android::base::EagerEvaluator<const char *, char *> *",
-   "referenced_type" : "type-156",
-   "self_type" : "type-160",
+   "referenced_type" : "type-159",
+   "self_type" : "type-167",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2777,8 +2717,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<const char *, const char *> *",
    "name" : "android::base::EagerEvaluator<const char *, const char *> *",
-   "referenced_type" : "type-143",
-   "self_type" : "type-151",
+   "referenced_type" : "type-148",
+   "self_type" : "type-152",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2786,8 +2726,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<const signed char *, const signed char *> *",
    "name" : "android::base::EagerEvaluator<const signed char *, const signed char *> *",
-   "referenced_type" : "type-198",
-   "self_type" : "type-202",
+   "referenced_type" : "type-208",
+   "self_type" : "type-212",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2795,8 +2735,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<const signed char *, signed char *> *",
    "name" : "android::base::EagerEvaluator<const signed char *, signed char *> *",
-   "referenced_type" : "type-203",
-   "self_type" : "type-206",
+   "referenced_type" : "type-213",
+   "self_type" : "type-216",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2804,8 +2744,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<const unsigned char *, const unsigned char *> *",
    "name" : "android::base::EagerEvaluator<const unsigned char *, const unsigned char *> *",
-   "referenced_type" : "type-186",
-   "self_type" : "type-190",
+   "referenced_type" : "type-194",
+   "self_type" : "type-200",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2813,8 +2753,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<const unsigned char *, unsigned char *> *",
    "name" : "android::base::EagerEvaluator<const unsigned char *, unsigned char *> *",
-   "referenced_type" : "type-191",
-   "self_type" : "type-193",
+   "referenced_type" : "type-201",
+   "self_type" : "type-203",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2822,8 +2762,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<int, int> *",
    "name" : "android::base::EagerEvaluator<int, int> *",
-   "referenced_type" : "type-169",
-   "self_type" : "type-170",
+   "referenced_type" : "type-180",
+   "self_type" : "type-181",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2831,8 +2771,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<int, long long> *",
    "name" : "android::base::EagerEvaluator<int, long long> *",
-   "referenced_type" : "type-167",
-   "self_type" : "type-168",
+   "referenced_type" : "type-178",
+   "self_type" : "type-179",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2840,8 +2780,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<signed char *, const signed char *> *",
    "name" : "android::base::EagerEvaluator<signed char *, const signed char *> *",
-   "referenced_type" : "type-208",
-   "self_type" : "type-209",
+   "referenced_type" : "type-218",
+   "self_type" : "type-219",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2849,8 +2789,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<signed char *, signed char *> *",
    "name" : "android::base::EagerEvaluator<signed char *, signed char *> *",
-   "referenced_type" : "type-210",
-   "self_type" : "type-211",
+   "referenced_type" : "type-220",
+   "self_type" : "type-221",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2858,8 +2798,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<unsigned char *, const unsigned char *> *",
    "name" : "android::base::EagerEvaluator<unsigned char *, const unsigned char *> *",
-   "referenced_type" : "type-194",
-   "self_type" : "type-195",
+   "referenced_type" : "type-204",
+   "self_type" : "type-205",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2867,8 +2807,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::EagerEvaluator<unsigned char *, unsigned char *> *",
    "name" : "android::base::EagerEvaluator<unsigned char *, unsigned char *> *",
-   "referenced_type" : "type-196",
-   "self_type" : "type-197",
+   "referenced_type" : "type-206",
+   "self_type" : "type-207",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2877,7 +2817,7 @@
    "linker_set_key" : "android::base::ErrnoRestorer *",
    "name" : "android::base::ErrnoRestorer *",
    "referenced_type" : "type-109",
-   "self_type" : "type-126",
+   "self_type" : "type-130",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2903,8 +2843,8 @@
    "alignment" : 4,
    "linker_set_key" : "android::base::MappedFile *",
    "name" : "android::base::MappedFile *",
-   "referenced_type" : "type-54",
-   "self_type" : "type-57",
+   "referenced_type" : "type-58",
+   "self_type" : "type-59",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/mapped_file.h"
   },
@@ -2922,7 +2862,7 @@
    "linker_set_key" : "android::base::Timer *",
    "name" : "android::base::Timer *",
    "referenced_type" : "type-67",
-   "self_type" : "type-207",
+   "self_type" : "type-217",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
   },
@@ -2931,7 +2871,7 @@
    "linker_set_key" : "android::base::unique_fd_impl<android::base::DefaultCloser> *",
    "name" : "android::base::unique_fd_impl<android::base::DefaultCloser> *",
    "referenced_type" : "type-16",
-   "self_type" : "type-205",
+   "self_type" : "type-215",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -2957,8 +2897,8 @@
    "alignment" : 4,
    "linker_set_key" : "const CapturedStdFd *",
    "name" : "const CapturedStdFd *",
-   "referenced_type" : "type-159",
-   "self_type" : "type-161",
+   "referenced_type" : "type-171",
+   "self_type" : "type-172",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
@@ -2966,8 +2906,8 @@
    "alignment" : 4,
    "linker_set_key" : "const android::base::ErrnoRestorer *",
    "name" : "const android::base::ErrnoRestorer *",
-   "referenced_type" : "type-129",
-   "self_type" : "type-133",
+   "referenced_type" : "type-131",
+   "self_type" : "type-136",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -2976,7 +2916,7 @@
    "linker_set_key" : "const android::base::Timer *",
    "name" : "const android::base::Timer *",
    "referenced_type" : "type-66",
-   "self_type" : "type-215",
+   "self_type" : "type-225",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/chrono_utils.h"
   },
@@ -3002,8 +2942,8 @@
    "alignment" : 4,
    "linker_set_key" : "const signed char *",
    "name" : "const signed char *",
-   "referenced_type" : "type-200",
-   "self_type" : "type-199",
+   "referenced_type" : "type-210",
+   "self_type" : "type-209",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3011,8 +2951,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-112",
-   "self_type" : "type-111",
+   "referenced_type" : "type-102",
+   "self_type" : "type-104",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3020,8 +2960,17 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-120",
-   "self_type" : "type-132",
+   "referenced_type" : "type-116",
+   "self_type" : "type-115",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/logging.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
+   "referenced_type" : "type-124",
+   "self_type" : "type-137",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3038,8 +2987,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-178",
-   "self_type" : "type-180",
+   "referenced_type" : "type-189",
+   "self_type" : "type-191",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3047,8 +2996,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-216",
-   "self_type" : "type-218",
+   "referenced_type" : "type-226",
+   "self_type" : "type-228",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3065,8 +3014,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-270",
-   "self_type" : "type-269",
+   "referenced_type" : "type-282",
+   "self_type" : "type-281",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3074,8 +3023,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-281",
-   "self_type" : "type-298",
+   "referenced_type" : "type-293",
+   "self_type" : "type-310",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3083,8 +3032,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-344",
-   "self_type" : "type-346",
+   "referenced_type" : "type-362",
+   "self_type" : "type-364",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3092,17 +3041,8 @@
    "alignment" : 4,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-377",
-   "self_type" : "type-379",
-   "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-98",
-   "self_type" : "type-100",
+   "referenced_type" : "type-395",
+   "self_type" : "type-397",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3110,8 +3050,8 @@
    "alignment" : 4,
    "linker_set_key" : "const unsigned char *",
    "name" : "const unsigned char *",
-   "referenced_type" : "type-188",
-   "self_type" : "type-187",
+   "referenced_type" : "type-196",
+   "self_type" : "type-195",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3119,7 +3059,7 @@
    "alignment" : 4,
    "linker_set_key" : "const void *",
    "name" : "const void *",
-   "referenced_type" : "type-55",
+   "referenced_type" : "type-56",
    "self_type" : "type-69",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
@@ -3137,8 +3077,8 @@
    "alignment" : 4,
    "linker_set_key" : "long long *",
    "name" : "long long *",
-   "referenced_type" : "type-78",
-   "self_type" : "type-77",
+   "referenced_type" : "type-82",
+   "self_type" : "type-81",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parseint.h"
   },
@@ -3146,8 +3086,8 @@
    "alignment" : 4,
    "linker_set_key" : "short *",
    "name" : "short *",
-   "referenced_type" : "type-73",
-   "self_type" : "type-76",
+   "referenced_type" : "type-77",
+   "self_type" : "type-80",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parseint.h"
   },
@@ -3155,8 +3095,8 @@
    "alignment" : 4,
    "linker_set_key" : "signed char *",
    "name" : "signed char *",
-   "referenced_type" : "type-201",
-   "self_type" : "type-204",
+   "referenced_type" : "type-211",
+   "self_type" : "type-214",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3164,19 +3104,10 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-104",
-   "self_type" : "type-103",
+   "referenced_type" : "type-108",
+   "self_type" : "type-107",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/file.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-138",
-   "self_type" : "type-137",
-   "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
   },
   {
    "alignment" : 4,
@@ -3185,32 +3116,14 @@
    "referenced_type" : "type-145",
    "self_type" : "type-144",
    "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/stringprintf.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-226",
-   "self_type" : "type-225",
-   "size" : 4,
-   "source_file" : "/system/core/base/include/android-base/file.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-306",
-   "self_type" : "type-305",
-   "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
   },
   {
    "alignment" : 4,
    "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-318",
-   "self_type" : "type-317",
+   "referenced_type" : "type-154",
+   "self_type" : "type-153",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/stringprintf.h"
   },
@@ -3218,8 +3131,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-387",
-   "self_type" : "type-386",
+   "referenced_type" : "type-236",
+   "self_type" : "type-235",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/file.h"
   },
@@ -3227,17 +3140,116 @@
    "alignment" : 4,
    "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
    "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
-   "referenced_type" : "type-62",
-   "self_type" : "type-61",
+   "referenced_type" : "type-320",
+   "self_type" : "type-319",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
+   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
+   "referenced_type" : "type-336",
+   "self_type" : "type-335",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/stringprintf.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
+   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
+   "referenced_type" : "type-405",
+   "self_type" : "type-404",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/file.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
+   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char> > *",
+   "referenced_type" : "type-64",
+   "self_type" : "type-63",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "name" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "referenced_type" : "type-139",
+   "self_type" : "type-138",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/strings.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "name" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "referenced_type" : "type-147",
+   "self_type" : "type-146",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/strings.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "name" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "referenced_type" : "type-156",
+   "self_type" : "type-155",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/strings.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "name" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "referenced_type" : "type-313",
+   "self_type" : "type-312",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/strings.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "name" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "referenced_type" : "type-324",
+   "self_type" : "type-323",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/strings.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "name" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "referenced_type" : "type-338",
+   "self_type" : "type-337",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/strings.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "name" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "referenced_type" : "type-55",
+   "self_type" : "type-54",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/strings.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "name" : "std::basic_string_view<char, std::char_traits<char> > *",
+   "referenced_type" : "type-71",
+   "self_type" : "type-70",
+   "size" : 4,
+   "source_file" : "/system/core/base/include/android-base/strings.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "std::vector<android::base::unique_fd_impl<android::base::DefaultCloser>, std::allocator<android::base::unique_fd_impl<android::base::DefaultCloser> > > *",
    "name" : "std::vector<android::base::unique_fd_impl<android::base::DefaultCloser>, std::allocator<android::base::unique_fd_impl<android::base::DefaultCloser> > > *",
-   "referenced_type" : "type-332",
-   "self_type" : "type-331",
+   "referenced_type" : "type-350",
+   "self_type" : "type-349",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   },
@@ -3245,8 +3257,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::vector<android::base::unique_fd_impl<android::base::DefaultCloser>, std::allocator<android::base::unique_fd_impl<android::base::DefaultCloser> > > *",
    "name" : "std::vector<android::base::unique_fd_impl<android::base::DefaultCloser>, std::allocator<android::base::unique_fd_impl<android::base::DefaultCloser> > > *",
-   "referenced_type" : "type-90",
-   "self_type" : "type-89",
+   "referenced_type" : "type-94",
+   "self_type" : "type-93",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   },
@@ -3254,8 +3266,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::vector<android::base::unique_fd_impl<android::base::DefaultCloser>, std::allocator<android::base::unique_fd_impl<android::base::DefaultCloser> > > *",
    "name" : "std::vector<android::base::unique_fd_impl<android::base::DefaultCloser>, std::allocator<android::base::unique_fd_impl<android::base::DefaultCloser> > > *",
-   "referenced_type" : "type-93",
-   "self_type" : "type-92",
+   "referenced_type" : "type-97",
+   "self_type" : "type-96",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   },
@@ -3263,8 +3275,8 @@
    "alignment" : 4,
    "linker_set_key" : "unsigned char *",
    "name" : "unsigned char *",
-   "referenced_type" : "type-189",
-   "self_type" : "type-192",
+   "referenced_type" : "type-197",
+   "self_type" : "type-202",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3273,7 +3285,7 @@
    "linker_set_key" : "unsigned int *",
    "name" : "unsigned int *",
    "referenced_type" : "type-31",
-   "self_type" : "type-70",
+   "self_type" : "type-74",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parseint.h"
   },
@@ -3281,8 +3293,8 @@
    "alignment" : 4,
    "linker_set_key" : "unsigned long long *",
    "name" : "unsigned long long *",
-   "referenced_type" : "type-71",
-   "self_type" : "type-72",
+   "referenced_type" : "type-75",
+   "self_type" : "type-76",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parseint.h"
   },
@@ -3290,8 +3302,8 @@
    "alignment" : 4,
    "linker_set_key" : "unsigned short *",
    "name" : "unsigned short *",
-   "referenced_type" : "type-64",
-   "self_type" : "type-63",
+   "referenced_type" : "type-73",
+   "self_type" : "type-72",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/parseint.h"
   },
@@ -3299,8 +3311,8 @@
    "alignment" : 4,
    "linker_set_key" : "void *",
    "name" : "void *",
-   "referenced_type" : "type-56",
-   "self_type" : "type-172",
+   "referenced_type" : "type-57",
+   "self_type" : "type-182",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   }
@@ -3312,8 +3324,8 @@
    "is_const" : true,
    "linker_set_key" : "const CapturedStdFd",
    "name" : "const CapturedStdFd",
-   "referenced_type" : "type-157",
-   "self_type" : "type-159",
+   "referenced_type" : "type-168",
+   "self_type" : "type-171",
    "size" : 1040,
    "source_file" : "/system/core/base/include/android-base/test_utils.h"
   },
@@ -3323,7 +3335,7 @@
    "linker_set_key" : "const android::base::ErrnoRestorer",
    "name" : "const android::base::ErrnoRestorer",
    "referenced_type" : "type-109",
-   "self_type" : "type-129",
+   "self_type" : "type-131",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3353,7 +3365,7 @@
    "linker_set_key" : "const bool",
    "name" : "const bool",
    "referenced_type" : "type-11",
-   "self_type" : "type-139",
+   "self_type" : "type-142",
    "size" : 1,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3382,8 +3394,8 @@
    "is_const" : true,
    "linker_set_key" : "const signed char",
    "name" : "const signed char",
-   "referenced_type" : "type-201",
-   "self_type" : "type-200",
+   "referenced_type" : "type-211",
+   "self_type" : "type-210",
    "size" : 1,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3392,18 +3404,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-113",
-   "self_type" : "type-112",
-   "size" : 12,
-   "source_file" : "/system/core/base/include/android-base/file.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-121",
-   "self_type" : "type-120",
+   "referenced_type" : "type-103",
+   "self_type" : "type-102",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3412,10 +3414,20 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-135",
-   "self_type" : "type-134",
+   "referenced_type" : "type-117",
+   "self_type" : "type-116",
    "size" : 12,
-   "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
+   "source_file" : "/system/core/base/include/android-base/file.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-125",
+   "self_type" : "type-124",
+   "size" : 12,
+   "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
    "alignment" : 4,
@@ -3425,17 +3437,7 @@
    "referenced_type" : "type-141",
    "self_type" : "type-140",
    "size" : 12,
-   "source_file" : "/system/core/base/include/android-base/properties.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-147",
-   "self_type" : "type-146",
-   "size" : 12,
-   "source_file" : "/system/core/base/include/android-base/strings.h"
+   "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
   },
   {
    "alignment" : 4,
@@ -3452,8 +3454,28 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-179",
-   "self_type" : "type-178",
+   "referenced_type" : "type-150",
+   "self_type" : "type-149",
+   "size" : 12,
+   "source_file" : "/system/core/base/include/android-base/properties.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-158",
+   "self_type" : "type-157",
+   "size" : 12,
+   "source_file" : "/system/core/base/include/android-base/strings.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-190",
+   "self_type" : "type-189",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3462,20 +3484,10 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-217",
-   "self_type" : "type-216",
+   "referenced_type" : "type-227",
+   "self_type" : "type-226",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/logging.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-271",
-   "self_type" : "type-270",
-   "size" : 12,
-   "source_file" : "/system/core/base/include/android-base/file.h"
   },
   {
    "alignment" : 4,
@@ -3492,8 +3504,18 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-282",
-   "self_type" : "type-281",
+   "referenced_type" : "type-283",
+   "self_type" : "type-282",
+   "size" : 12,
+   "source_file" : "/system/core/base/include/android-base/file.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
+   "referenced_type" : "type-294",
+   "self_type" : "type-293",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3502,8 +3524,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-303",
-   "self_type" : "type-302",
+   "referenced_type" : "type-317",
+   "self_type" : "type-316",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
   },
@@ -3512,8 +3534,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-313",
-   "self_type" : "type-312",
+   "referenced_type" : "type-329",
+   "self_type" : "type-328",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/properties.h"
   },
@@ -3522,8 +3544,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-322",
-   "self_type" : "type-321",
+   "referenced_type" : "type-340",
+   "self_type" : "type-339",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -3532,8 +3554,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-345",
-   "self_type" : "type-344",
+   "referenced_type" : "type-363",
+   "self_type" : "type-362",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3542,8 +3564,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-378",
-   "self_type" : "type-377",
+   "referenced_type" : "type-396",
+   "self_type" : "type-395",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3552,8 +3574,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-59",
-   "self_type" : "type-58",
+   "referenced_type" : "type-61",
+   "self_type" : "type-60",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/parsenetaddress.h"
   },
@@ -3562,28 +3584,18 @@
    "is_const" : true,
    "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
    "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-75",
-   "self_type" : "type-74",
+   "referenced_type" : "type-79",
+   "self_type" : "type-78",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/properties.h"
   },
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char> >",
-   "referenced_type" : "type-99",
-   "self_type" : "type-98",
-   "size" : 12,
-   "source_file" : "/system/core/base/include/android-base/logging.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
    "linker_set_key" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
    "name" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
-   "referenced_type" : "type-106",
-   "self_type" : "type-105",
+   "referenced_type" : "type-112",
+   "self_type" : "type-111",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3592,8 +3604,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
    "name" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
-   "referenced_type" : "type-128",
-   "self_type" : "type-127",
+   "referenced_type" : "type-133",
+   "self_type" : "type-132",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3602,8 +3614,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
    "name" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
-   "referenced_type" : "type-174",
-   "self_type" : "type-173",
+   "referenced_type" : "type-185",
+   "self_type" : "type-184",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3612,8 +3624,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
    "name" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
-   "referenced_type" : "type-265",
-   "self_type" : "type-264",
+   "referenced_type" : "type-277",
+   "self_type" : "type-276",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3622,8 +3634,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
    "name" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
-   "referenced_type" : "type-293",
-   "self_type" : "type-292",
+   "referenced_type" : "type-305",
+   "self_type" : "type-304",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3632,8 +3644,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
    "name" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
-   "referenced_type" : "type-341",
-   "self_type" : "type-340",
+   "referenced_type" : "type-359",
+   "self_type" : "type-358",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3642,8 +3654,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
    "name" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
-   "referenced_type" : "type-372",
-   "self_type" : "type-371",
+   "referenced_type" : "type-390",
+   "self_type" : "type-389",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3682,8 +3694,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
    "name" : "const std::unique_ptr<android::base::LogMessageData, std::default_delete<android::base::LogMessageData> >",
-   "referenced_type" : "type-95",
-   "self_type" : "type-94",
+   "referenced_type" : "type-99",
+   "self_type" : "type-98",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3692,8 +3704,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<const char *, std::allocator<const char *> >",
    "name" : "const std::vector<const char *, std::allocator<const char *> >",
-   "referenced_type" : "type-154",
-   "self_type" : "type-153",
+   "referenced_type" : "type-165",
+   "self_type" : "type-164",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -3702,8 +3714,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<const char *, std::allocator<const char *> >",
    "name" : "const std::vector<const char *, std::allocator<const char *> >",
-   "referenced_type" : "type-328",
-   "self_type" : "type-327",
+   "referenced_type" : "type-346",
+   "self_type" : "type-345",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -3712,8 +3724,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<int, std::allocator<int> >",
    "name" : "const std::vector<int, std::allocator<int> >",
-   "referenced_type" : "type-320",
-   "self_type" : "type-319",
+   "referenced_type" : "type-334",
+   "self_type" : "type-333",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   },
@@ -3722,8 +3734,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<int, std::allocator<int> >",
    "name" : "const std::vector<int, std::allocator<int> >",
-   "referenced_type" : "type-83",
-   "self_type" : "type-82",
+   "referenced_type" : "type-85",
+   "self_type" : "type-84",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   },
@@ -3732,8 +3744,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<int, std::allocator<int> >",
    "name" : "const std::vector<int, std::allocator<int> >",
-   "referenced_type" : "type-87",
-   "self_type" : "type-86",
+   "referenced_type" : "type-91",
+   "self_type" : "type-90",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   },
@@ -3742,8 +3754,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
-   "referenced_type" : "type-150",
-   "self_type" : "type-149",
+   "referenced_type" : "type-162",
+   "self_type" : "type-161",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -3752,8 +3764,8 @@
    "is_const" : true,
    "linker_set_key" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
    "name" : "const std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >",
-   "referenced_type" : "type-325",
-   "self_type" : "type-324",
+   "referenced_type" : "type-343",
+   "self_type" : "type-342",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/strings.h"
   },
@@ -3762,8 +3774,8 @@
    "is_const" : true,
    "linker_set_key" : "const unsigned char",
    "name" : "const unsigned char",
-   "referenced_type" : "type-189",
-   "self_type" : "type-188",
+   "referenced_type" : "type-197",
+   "self_type" : "type-196",
    "size" : 1,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -3771,8 +3783,8 @@
    "is_const" : true,
    "linker_set_key" : "const void",
    "name" : "const void",
-   "referenced_type" : "type-56",
-   "self_type" : "type-55",
+   "referenced_type" : "type-57",
+   "self_type" : "type-56",
    "source_file" : "/system/core/base/include/android-base/cmsg.h"
   }
  ],
@@ -3803,8 +3815,8 @@
    "linker_set_key" : "CapturedStdFd",
    "name" : "CapturedStdFd",
    "record_kind" : "class",
-   "referenced_type" : "type-157",
-   "self_type" : "type-157",
+   "referenced_type" : "type-168",
+   "self_type" : "type-168",
    "size" : 1040,
    "source_file" : "/system/core/base/include/android-base/test_utils.h",
    "unique_id" : "_ZTS13CapturedStdFd"
@@ -3814,14 +3826,14 @@
    "base_specifiers" :
    [
     {
-     "referenced_type" : "type-157"
+     "referenced_type" : "type-168"
     }
    ],
    "linker_set_key" : "CapturedStderr",
    "name" : "CapturedStderr",
    "record_kind" : "class",
-   "referenced_type" : "type-162",
-   "self_type" : "type-162",
+   "referenced_type" : "type-173",
+   "self_type" : "type-173",
    "size" : 1040,
    "source_file" : "/system/core/base/include/android-base/test_utils.h",
    "unique_id" : "_ZTS14CapturedStderr"
@@ -3831,14 +3843,14 @@
    "base_specifiers" :
    [
     {
-     "referenced_type" : "type-157"
+     "referenced_type" : "type-168"
     }
    ],
    "linker_set_key" : "CapturedStdout",
    "name" : "CapturedStdout",
    "record_kind" : "class",
-   "referenced_type" : "type-164",
-   "self_type" : "type-164",
+   "referenced_type" : "type-175",
+   "self_type" : "type-175",
    "size" : 1040,
    "source_file" : "/system/core/base/include/android-base/test_utils.h",
    "unique_id" : "_ZTS14CapturedStdout"
@@ -3861,8 +3873,8 @@
    "linker_set_key" : "TemporaryDir",
    "name" : "TemporaryDir",
    "record_kind" : "class",
-   "referenced_type" : "type-221",
-   "self_type" : "type-221",
+   "referenced_type" : "type-231",
+   "self_type" : "type-231",
    "size" : 1025,
    "source_file" : "/system/core/base/include/android-base/file.h",
    "unique_id" : "_ZTS12TemporaryDir"
@@ -3922,8 +3934,8 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<char *, char *>",
    "name" : "android::base::EagerEvaluator<char *, char *>",
-   "referenced_type" : "type-177",
-   "self_type" : "type-177",
+   "referenced_type" : "type-183",
+   "self_type" : "type-183",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
    "template_args" : [ "type-33", "type-33" ],
@@ -3945,8 +3957,8 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<char *, const char *>",
    "name" : "android::base::EagerEvaluator<char *, const char *>",
-   "referenced_type" : "type-166",
-   "self_type" : "type-166",
+   "referenced_type" : "type-169",
+   "self_type" : "type-169",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
    "template_args" : [ "type-33", "type-38" ],
@@ -3968,8 +3980,8 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<const char *, char *>",
    "name" : "android::base::EagerEvaluator<const char *, char *>",
-   "referenced_type" : "type-156",
-   "self_type" : "type-156",
+   "referenced_type" : "type-159",
+   "self_type" : "type-159",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
    "template_args" : [ "type-38", "type-33" ],
@@ -3991,8 +4003,8 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<const char *, const char *>",
    "name" : "android::base::EagerEvaluator<const char *, const char *>",
-   "referenced_type" : "type-143",
-   "self_type" : "type-143",
+   "referenced_type" : "type-148",
+   "self_type" : "type-148",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
    "template_args" : [ "type-38", "type-38" ],
@@ -4014,11 +4026,11 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<const signed char *, const signed char *>",
    "name" : "android::base::EagerEvaluator<const signed char *, const signed char *>",
-   "referenced_type" : "type-198",
-   "self_type" : "type-198",
+   "referenced_type" : "type-208",
+   "self_type" : "type-208",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
-   "template_args" : [ "type-199", "type-199" ],
+   "template_args" : [ "type-209", "type-209" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKaS3_EE"
   },
   {
@@ -4037,11 +4049,11 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<const signed char *, signed char *>",
    "name" : "android::base::EagerEvaluator<const signed char *, signed char *>",
-   "referenced_type" : "type-203",
-   "self_type" : "type-203",
+   "referenced_type" : "type-213",
+   "self_type" : "type-213",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
-   "template_args" : [ "type-199", "type-204" ],
+   "template_args" : [ "type-209", "type-214" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKaPaEE"
   },
   {
@@ -4060,11 +4072,11 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<const unsigned char *, const unsigned char *>",
    "name" : "android::base::EagerEvaluator<const unsigned char *, const unsigned char *>",
-   "referenced_type" : "type-186",
-   "self_type" : "type-186",
+   "referenced_type" : "type-194",
+   "self_type" : "type-194",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
-   "template_args" : [ "type-187", "type-187" ],
+   "template_args" : [ "type-195", "type-195" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKhS3_EE"
   },
   {
@@ -4083,11 +4095,11 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<const unsigned char *, unsigned char *>",
    "name" : "android::base::EagerEvaluator<const unsigned char *, unsigned char *>",
-   "referenced_type" : "type-191",
-   "self_type" : "type-191",
+   "referenced_type" : "type-201",
+   "self_type" : "type-201",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
-   "template_args" : [ "type-187", "type-192" ],
+   "template_args" : [ "type-195", "type-202" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPKhPhEE"
   },
   {
@@ -4106,8 +4118,8 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<int, int>",
    "name" : "android::base::EagerEvaluator<int, int>",
-   "referenced_type" : "type-169",
-   "self_type" : "type-169",
+   "referenced_type" : "type-180",
+   "self_type" : "type-180",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
    "template_args" : [ "type-8", "type-8" ],
@@ -4124,16 +4136,16 @@
     {
      "field_name" : "rhs",
      "field_offset" : 64,
-     "referenced_type" : "type-78"
+     "referenced_type" : "type-82"
     }
    ],
    "linker_set_key" : "android::base::EagerEvaluator<int, long long>",
    "name" : "android::base::EagerEvaluator<int, long long>",
-   "referenced_type" : "type-167",
-   "self_type" : "type-167",
+   "referenced_type" : "type-178",
+   "self_type" : "type-178",
    "size" : 16,
    "source_file" : "/system/core/base/include/android-base/logging.h",
-   "template_args" : [ "type-8", "type-78" ],
+   "template_args" : [ "type-8", "type-82" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIixEE"
   },
   {
@@ -4152,11 +4164,11 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<signed char *, const signed char *>",
    "name" : "android::base::EagerEvaluator<signed char *, const signed char *>",
-   "referenced_type" : "type-208",
-   "self_type" : "type-208",
+   "referenced_type" : "type-218",
+   "self_type" : "type-218",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
-   "template_args" : [ "type-204", "type-199" ],
+   "template_args" : [ "type-214", "type-209" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPaPKaEE"
   },
   {
@@ -4175,11 +4187,11 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<signed char *, signed char *>",
    "name" : "android::base::EagerEvaluator<signed char *, signed char *>",
-   "referenced_type" : "type-210",
-   "self_type" : "type-210",
+   "referenced_type" : "type-220",
+   "self_type" : "type-220",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
-   "template_args" : [ "type-204", "type-204" ],
+   "template_args" : [ "type-214", "type-214" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPaS2_EE"
   },
   {
@@ -4198,11 +4210,11 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<unsigned char *, const unsigned char *>",
    "name" : "android::base::EagerEvaluator<unsigned char *, const unsigned char *>",
-   "referenced_type" : "type-194",
-   "self_type" : "type-194",
+   "referenced_type" : "type-204",
+   "self_type" : "type-204",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
-   "template_args" : [ "type-192", "type-187" ],
+   "template_args" : [ "type-202", "type-195" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPhPKhEE"
   },
   {
@@ -4221,11 +4233,11 @@
    ],
    "linker_set_key" : "android::base::EagerEvaluator<unsigned char *, unsigned char *>",
    "name" : "android::base::EagerEvaluator<unsigned char *, unsigned char *>",
-   "referenced_type" : "type-196",
-   "self_type" : "type-196",
+   "referenced_type" : "type-206",
+   "self_type" : "type-206",
    "size" : 8,
    "source_file" : "/system/core/base/include/android-base/logging.h",
-   "template_args" : [ "type-192", "type-192" ],
+   "template_args" : [ "type-202", "type-202" ],
    "unique_id" : "_ZTSN7android4base14EagerEvaluatorIPhS2_EE"
   },
   {
@@ -4310,8 +4322,8 @@
    "linker_set_key" : "android::base::MappedFile",
    "name" : "android::base::MappedFile",
    "record_kind" : "class",
-   "referenced_type" : "type-54",
-   "self_type" : "type-54",
+   "referenced_type" : "type-58",
+   "self_type" : "type-58",
    "size" : 12,
    "source_file" : "/system/core/base/include/android-base/mapped_file.h",
    "unique_id" : "_ZTSN7android4base10MappedFileE"
@@ -4393,7 +4405,7 @@
    "linker_set_key" : "android::base::unique_fd_impl<android::base::DefaultCloser> &&",
    "name" : "android::base::unique_fd_impl<android::base::DefaultCloser> &&",
    "referenced_type" : "type-16",
-   "self_type" : "type-212",
+   "self_type" : "type-222",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/unique_fd.h"
   },
@@ -4401,8 +4413,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::function<void (LogId, LogSeverity, const char *, const char *, unsigned int, const char *)> &&",
    "name" : "std::function<void (LogId, LogSeverity, const char *, const char *, unsigned int, const char *)> &&",
-   "referenced_type" : "type-123",
-   "self_type" : "type-122",
+   "referenced_type" : "type-127",
+   "self_type" : "type-126",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -4410,8 +4422,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::function<void (LogId, LogSeverity, const char *, const char *, unsigned int, const char *)> &&",
    "name" : "std::function<void (LogId, LogSeverity, const char *, const char *, unsigned int, const char *)> &&",
-   "referenced_type" : "type-286",
-   "self_type" : "type-285",
+   "referenced_type" : "type-298",
+   "self_type" : "type-297",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -4428,8 +4440,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::function<void (const char *)> &&",
    "name" : "std::function<void (const char *)> &&",
-   "referenced_type" : "type-125",
-   "self_type" : "type-124",
+   "referenced_type" : "type-129",
+   "self_type" : "type-128",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
@@ -4437,8 +4449,8 @@
    "alignment" : 4,
    "linker_set_key" : "std::function<void (const char *)> &&",
    "name" : "std::function<void (const char *)> &&",
-   "referenced_type" : "type-288",
-   "self_type" : "type-287",
+   "referenced_type" : "type-300",
+   "self_type" : "type-299",
    "size" : 4,
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
